@@ -65,8 +65,8 @@ form label {
     color: black;
     font-family: Arial, Helvetica, sans-serif
 }
-  
-form button {
+
+button.contactButton  {
     margin-top: 40px;
     width: 150px;
     height: 40px;

@@ -1,7 +1,10 @@
 import React from "react";
 import {Link} from 'react-router-dom';
 import HomeBackground from "../img/background1.avif";
-import "../style/Homepage.css"
+import '../style/MenuStyle/css/style.css';
+import '../style/MenuStyle/css/bootstrap.css'
+import '../style/MenuStyle/css/responsive.css'
+import { Helmet } from "react-helmet";
 
 function Menu() {
     return (

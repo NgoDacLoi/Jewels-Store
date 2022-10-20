@@ -6,6 +6,7 @@ import Contact from "./pages/Contact";
 import About from "./pages/About";
 import Navbar from "./components/navbar";
 import Menu from "./pages/Menu"
+import Login from "./pages/Login"
 import {Route, Redirect, Switch} from "react-router-dom";
 
 
@@ -18,6 +19,7 @@ function App() {
             <Route exact path= "/menu"  component={Menu} />
             <Route exact path= "/contact"  component={Contact} />
             <Route exact path= "/about"  component={About} />
+            <Route exact path= "/login"  component={Login} />
         </Switch>
         <Footer/>
      </>
